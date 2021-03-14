@@ -1,4 +1,3 @@
 # OfficeWorkManual2
 
-gitの操作テスト改変
-
+gitの操作テストkai
