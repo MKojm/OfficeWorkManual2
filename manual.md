@@ -1,0 +1,2 @@
+#Gitのテスト
+## git add -A
