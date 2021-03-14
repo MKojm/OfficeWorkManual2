@@ -1,7 +1,5 @@
 Hello World 1
 hello from issue1 branch
-<<<<<<< HEAD
 hello from issue2
-=======
 hello from issue3
->>>>>>> issue3
+complete
