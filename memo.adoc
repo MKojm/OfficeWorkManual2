@@ -1,0 +1,58 @@
+= Gitの超基本的操作
+
+=== ローカルリポジトリの利用
+
+ローカルリポジトリ作成
+....
+mkdir test
+cd test
+git init //フォルダをリポジトリ化
+....
+
+変更をコミット
+....
+git add -A //追加可能な全てのファイルをコミット対象にする（ステージング）
+git status 
+git commit -m "コメント" //コミットを実行
+git log //コミット履歴の確認
+....
+
+コミットの取り消し
+
+ git reset --soft HEAD^
+
+ git revert コミットID
+
+
+=== リモートリポジトリの利用
+
+HTTPSで利用（事前にGitHubでリモートリポジトリを作成しておく）
+....
+git remote add origin http://github.com/ユーザ名/リポジトリ名.github
+git push origin master 
+....
+
+=== ブランチ
+ブランチ作成
+....
+git branch ブランチ名 //ブランチを作成
+git checkout ブランチ名 //ブランチに切り替え
+....
+マージ
+....
+git checkout master
+git merge 取り込むブランチ名
+....
+
+ブランチの削除
+....
+git branch //ブランチの一覧を確認 
+git branch -d ブランチ名 //ブランチの削除
+....
+
+=== プルリクエスト
+
+git側？の操作は、コミットをしてGitHubにブランチをプッシュするだけ
+....
+git push origin ブランチ名
+....
