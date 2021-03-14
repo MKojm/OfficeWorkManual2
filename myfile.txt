@@ -3,4 +3,4 @@ hello from issue1 branch
 hello from issue2
 hello from issue3
 complete
-amend test
+amend
