@@ -1,3 +1,3 @@
 # submanual
-## git branch 
-## git checkout
+## git branch ブランチ名
+## git checkout　ブランチ名
